@@ -24,7 +24,7 @@ function _0x863d(){const _0x5707d7=['ilKTd','priyanshuA','n/json','post','config
 
 module.exports = {
   config: {
-    name: "bot",
+    name: "Ai",
     aliases: ["ask", "chat"],
     description: "Talk to bot (powered by Priyansh AI)",
     usage: "{prefix}ai <your message>",
@@ -92,7 +92,7 @@ module.exports = {
 
     try {
       const aiResponse = await getAiReply(senderID, promptText);
-      const reply = `🤖 ${aiResponse}`;
+      const reply = ` ${aiResponse}`;
 
       api.sendMessage(reply, threadID, (err, info) => {
         if (err) return console.error("AI reply error:", err);
