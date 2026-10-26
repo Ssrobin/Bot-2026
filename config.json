@@ -1,101 +1,75 @@
-[
-    {
-        "key": "dbln",
-        "value": "%7B%2261592740175124%22%3A%2206NYkxUx%22%2C%2261593672488581%22%3A%22spvsg0w2%22%2C%2261592666556613%22%3A%22ZGIqkHLi%22%7D",
-        "domain": "facebook.com",
-        "path": "/login/device-based/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "sb",
-        "value": "XJGeardgpUMvwAOy9zP4eiNd",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "datr",
-        "value": "_BLbaoOK3fvrHshvN-ZheOIM",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "dpr",
-        "value": "3.8480641841888428",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "ps_l",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "ps_n",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "c_user",
-        "value": "61595664510204",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "fr",
-        "value": "1TPeenJmK0cREbVmB.AWc-u7xeUVqCIE3vtxlFaE02zp37bW3lDE6GFnHDlPPM73nEkhg.Bq3zEl..AAA.0.0.Bq3zEl.AWckzOAOy26mG5LZE_klQAW3okI",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "xs",
-        "value": "1%3A0EmzVepeCv89OQ%3A2%3A1793012001%3A-1%3A-1%3A%3AAcyD6syf7DVTe_Y4wK-jtsgLzPPWMrs5VAY4YjUMlA",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "wd",
-        "value": "900x1662",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    },
-    {
-        "key": "presence",
-        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1793012008992%2C%22v%22%3A1%7D",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-10-26T10:53:33.736Z",
-        "lastAccessed": "2026-10-26T10:53:33.736Z"
-    }
-]
+{
+  "mongoURI": "mongodb+srv://saniashah123098_db_user:KXKo0Ig8WSehPdeX@cluster0.ptcitic.mongodb.net/?appName=Cluster0",
+  "appstateSyncMinutes": 10,
+  "ownerID": "61595259722689",
+  "adminIDs": [
+    "61595259722689",
+    "ADMIN_ID_2"
+  ],
+  "supportIDs": [
+    "61595259722689",
+    "SUPPORT_ID_2"
+  ],
+  "adminInboxThreadID": "61595259722689",
+  "prefix": "/",
+  "fcaOptions": {
+    "forceLogin": false,
+    "updatePresence": true,
+    "listenEvents": true,
+    "logLevel": "silent",
+    "selfListen": false,
+    "autoMarkRead": false,
+    "autoMarkDelivery": false,
+    "online": true,
+    "emitReady": false,
+    "autoReconnect": true,
+    "userAgent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 CrKey/1.54.250320"
+  },
+  "botNickname": "FB Bot",
+  "commandEnabled": true,
+  "eventEnabled": true,
+  "announceImageChange": true,
+  "announceNameChange": true,
+  "announceNicknameChange": true,
+  "debug": false,
+  "logsEnabled": true,
+  "disabledCommands": [
+    "imagine3"
+  ],
+  "server": {
+    "enabled": true,
+    "port": 4000,
+    "autoUptimeMonitoring": true
+  },
+  "serverUrl": "http://localhost:4000",
+  "spamBan": {
+    "enabled": true,
+    "maxCommands": 10,
+    "timeWindowMinutes": 1,
+    "banDurationHours": 24
+  },
+  "autosend": {
+    "enabled": false,
+    "checkIntervalMinutes": 1
+  },
+  "unsendReaction": "🖤",
+  "apiKeys": {
+    "priyanshuApi": "apim_l5vTyHiS1q2WeIzQRSUGVQtKW9i34T5RNZ-HUh-2caw"
+  },
+  "facebookToken": "",
+  "spamBanSettings": {
+    "enabled": true,
+    "maxCommands": 10,
+    "timeWindow": 60000,
+    "banDuration": 86400000
+  },
+  "adminOnlyMode": {
+    "global": false,
+    "mode": "public"
+  },
+  "github": {
+    "token": "YOUR_GITHUB_TOKEN",
+    "owner": "YOUR_USERNAME",
+    "repo": "YOUR_REPO_NAME"
+  }
+}
